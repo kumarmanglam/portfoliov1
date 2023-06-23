@@ -1,14 +1,15 @@
 .project {
-  height: 80vh;
   width: 80%;
-  margin: 0 auto;
+  margin: 5rem auto;
   display: flex;
   align-items: center;
-  margin-bottom: 300px;
 }
 .wrapper {
   width: 100%;
   display: flex;
+}
+.project-main-display {
+  flex-basis: 65%;
 }
 .project-main {
   position: relative;
@@ -127,4 +128,15 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 800px) {
+  .project {
+    padding-top: 4rem;
+    width: 90vw;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

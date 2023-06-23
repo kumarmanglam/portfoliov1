@@ -1,6 +1,6 @@
 .skills {
   width: 80vw;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 .skills-head {
   margin: 50px 0;
@@ -11,6 +11,17 @@
 }
 .skill-stack {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   color: #adb5bd;
+}
+@media screen and (max-width: 800px) {
+  .skills {
+    width: 90vw;
+  }
+  .email {
+    width: fit-content;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
 }

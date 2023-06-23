@@ -29,7 +29,9 @@ function Navigation() {
   return (
     <div className="navigation">
       <div>
-        <Text size="large" label="K.M" />
+        <a href="#about" className="anchor km">
+          K.M
+        </a>
       </div>
       <div className="tabs">
         {data.tabs.map((item, index) => (

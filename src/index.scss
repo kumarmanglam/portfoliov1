@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -14,7 +15,11 @@ body {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-
+@media screen and (max-width: 800px) {
+  html {
+    scroll-padding-top: 0;
+  }
+}
 @import url("./assets/styles/common.scss");
 @import url("./assets/styles/text.scss");
 @import url("./assets/styles/navigation.scss");
