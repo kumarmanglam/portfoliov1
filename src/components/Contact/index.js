@@ -3,7 +3,6 @@ import Text from "../core/Text";
 import Icon from "../core/icon";
 
 function Contact() {
-  const date = new Date().getFullYear();
   return (
     <section className="contact" id="contactMe">
       <div className="tagline">
@@ -17,7 +16,6 @@ function Contact() {
       <div className="email">
         <Text label="kumarmanglamemail@gmail.com" />
       </div>
-      <div className="footer">© {date} Kumar Manglam</div>
     </section>
   );
 }

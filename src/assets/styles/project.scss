@@ -79,6 +79,7 @@
 .project-Nav {
   flex: 40%;
   position: relative;
+  will-change: transform;
 }
 .navActive {
   color: #f2c471;
@@ -128,6 +129,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   letter-spacing: 1px;
+  touch-action: manipulation;
 }
 
 @media screen and (max-width: 800px) {

@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
+  const date = new Date().getFullYear();
   return (
     <div className="App">
       <Navigation />
@@ -13,6 +14,8 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+
+      <div className="footer">© {date} Kumar Manglam</div>
       {/* </article> */}
     </div>
   );
