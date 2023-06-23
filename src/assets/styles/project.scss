@@ -1,0 +1,130 @@
+.project {
+  height: 80vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 300px;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+.project-main {
+  position: relative;
+}
+.main-heading {
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.project-actions {
+  display: flex;
+  gap: 20px;
+  padding: 0 30px;
+}
+.line {
+  position: absolute;
+  height: 120px;
+  top: 60px;
+  width: 1px;
+  background: linear-gradient(135deg, #f2c471 0%, white 50%, orange 100%);
+}
+.project-display {
+  padding-top: 80px;
+  flex-basis: 60%;
+  display: none;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.project-active {
+  animation-name: slideIn;
+  display: block;
+}
+.project-inactive {
+  animation-name: slideOut;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+.project-description {
+  padding: 30px 20px;
+  line-height: 25px;
+  width: 80%;
+}
+.project-heading {
+  font-size: 2.5rem;
+}
+.project-Nav {
+  flex: 40%;
+  position: relative;
+}
+.navActive {
+  color: #f2c471;
+}
+.project-list {
+  z-index: 1;
+  border-top-left-radius: 7px;
+  flex-direction: column;
+  margin-left: 0;
+  padding: 30px 30px 0;
+  display: flex;
+  position: relative;
+}
+.project-list::before,
+.project-list::after {
+  content: " ";
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #f2c471 0%, white 50%, orange 100%);
+  opacity: 1;
+  border-top-left-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 29px;
+  bottom: 0;
+  left: 29px;
+  z-index: -1; /* Add z-index: -1 */
+}
+
+.project-list::after {
+  opacity: 0;
+}
+.list-child {
+  z-index: 1;
+  background-color: #212529;
+  border-top-left-radius: 10px;
+  flex-direction: column;
+  margin-left: 0;
+  padding: 30px 30px 0;
+  display: flex;
+  gap: 30px;
+  position: relative;
+  transition: 1s;
+}
+
+.project-link:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 1px;
+}

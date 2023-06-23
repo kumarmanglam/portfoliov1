@@ -1,0 +1,28 @@
+.contact {
+  width: 80vw;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.text-xxl {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cut-tag {
+  text-decoration: line-through;
+  text-decoration-color: #f2c471;
+}
+.tagline {
+  margin-bottom: 20px;
+}
+
+.email {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background-color: #f2c471;
+  color: #343a40;
+  font-weight: 600;
+  width: min-content;
+  margin: 20px auto;
+}

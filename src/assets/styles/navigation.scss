@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 130px;
+  margin-inline: auto;
+  scroll-behavior: smooth;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background-color: #212529;
+  z-index: 50;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  scroll-behavior: smooth;
+}
+.tab-link {
+  text-decoration: none;
+  list-style: none;
+  color: #dee2e6;
+  scroll-behavior: smooth;
+}
+.active {
+  color: #f2c471;
+}
+.tab {
+  font-size: 0.9rem;
+}
+.tab:hover {
+  text-shadow: 1px 1px 5px #f2c471;
+}
+
+.nav-name {
+  font-size: 2.5rem;
+}

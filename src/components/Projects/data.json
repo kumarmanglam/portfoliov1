@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "id":1,
+      "name": "NotePro V2",
+      "description": "NotePro 2.0 is a user-friendly web-based note-taking app built with HTML, CSS, JavaScript, and React. Inspired by Google Keep, it provides intuitive note creation, editing, archiving, and deletion.",
+      "githubLink":"https://github.com/kumarmanglam/NotePro2.0",
+      "liveLink":"https://noteprov2.netlify.app/notes"
+    },
+    {
+      "id":2,
+      "name": "Budget Tracker",
+      "description": "BudgetTracker is an application which helps track expenses and earnings, built with HTML, CSS, and vanilla JavaScript.",
+      "githubLink":"https://github.com/kumarmanglam/BudgetTracker",
+      "liveLink":"https://budgettrackerappbymanglam.netlify.app/"
+    }
+    ,
+    {
+      "id":3,
+      "name": "Todo List",
+      "description": "To do list App with CRUD operations and Drag and drop functionality.",
+      "githubLink":"https://github.com/kumarmanglam/Todo-List",
+      "liveLink":"https://todoappbymanglam.netlify.app/"
+    },
+    {
+      "id":4,
+      "name": "Random Joke Generator",
+      "description": "Developed an interactive application using API integration in JavaScript, providing users with a fun experience of generating random jokes and speaking them aloud upon clicking.",
+      "githubLink":"https://github.com/kumarmanglam/Joke",
+      "liveLink":"https://jokeappbymanglam.netlify.app/"
+    }
+  ]
+}

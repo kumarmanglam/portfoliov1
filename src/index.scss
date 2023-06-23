@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #212529;
+  color: #dee2e6;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+@import url("./assets/styles/common.scss");
+@import url("./assets/styles/text.scss");
+@import url("./assets/styles/navigation.scss");
+@import url("./assets/styles/icons.scss");
+@import url("./assets/styles/project.scss");
+@import url("./assets/styles/contact.scss");
+@import url("./assets/styles/skills.scss");
+@import url("./assets/styles/hero.scss");
+@import url("./App.scss");
