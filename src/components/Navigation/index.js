@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import Text from "../core/Text";
 
 function Navigation() {
   const slash = "// ";
@@ -28,7 +27,7 @@ function Navigation() {
   }
   return (
     <div className="navigation">
-      <div>
+      <div className="nav-logo">
         <a href="#about" className="anchor km">
           K.M
         </a>

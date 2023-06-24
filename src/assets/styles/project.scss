@@ -42,12 +42,12 @@
   animation-name: slideIn;
   display: block;
 }
-.project-inactive {
-  animation-name: slideOut;
-}
+// .project-inactive {
+//   animation-name: slideOut;
+// }
 @keyframes slideIn {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%);
     opacity: 0;
   }
   20% {
@@ -58,16 +58,16 @@
     opacity: 1;
   }
 }
-@keyframes slideOut {
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  50% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-}
+// @keyframes slideOut {
+//   0% {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+//   50% {
+//     transform: translateX(-100%);
+//     opacity: 0;
+//   }
+// }
 .project-description {
   padding: 30px 20px;
   line-height: 25px;
@@ -140,5 +140,18 @@
   .wrapper {
     display: flex;
     flex-direction: column-reverse;
+  }
+  @keyframes slideIn {
+    0% {
+      transform: translateX(35%);
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 }
