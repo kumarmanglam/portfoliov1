@@ -20,7 +20,7 @@ function Hero() {
         </div>
         <div>
           <p className="intro-desc2">
-            I am passional about cutting edge technologies, pixel perfect,
+            I am passionate about cutting edge technologies, pixel perfect,
             beautiful interface.
           </p>
         </div>
