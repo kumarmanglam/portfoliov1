@@ -10,7 +10,7 @@ function Navigation({ tablist }) {
   return (
     <div className="navigation">
       <div className="nav-logo">
-        <a href="#about" className="anchor-head km">
+        <a href="#home" className="anchor-head km">
           K.M.
         </a>
       </div>
