@@ -1,13 +1,11 @@
 .Footermobile {
   width: 100%;
-  position: fixed;
   background-color: hsl(251, 28%, 12%);
-  bottom: 0;
   display: none;
 }
 
 .foot {
-  padding: 10px 24px;
+  padding: 25px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +20,7 @@
 .close-sec {
   display: flex;
   justify-content: flex-end;
-  padding: 15px;
+  padding: 20px;
   cursor: pointer;
 }
 .footer-grid {
@@ -48,5 +46,8 @@
 @media screen and (max-width: 600px) {
   .Footermobile {
     display: block;
+    position: sticky;
+    bottom: 0;
+    left: 0;
   }
 }

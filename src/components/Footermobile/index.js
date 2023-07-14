@@ -10,11 +10,36 @@ function Footermobile() {
       {gridActive ? (
         <div>
           <div className="footer-grid">
-            <Navbtn label="Home" iconLabel="Home" path="#home" />
-            <Navbtn label="About" iconLabel="Person" path="#about" />
-            <Navbtn label="Skills" iconLabel="Document" path="#skills" />
-            <Navbtn label="Projects" iconLabel="Photo" path="#projects" />
-            <Navbtn label="Contact me" iconLabel="Contact" path="#contactMe" />
+            <Navbtn
+              label="Home"
+              iconLabel="Home"
+              path="#home"
+              handleClick={() => setGridActive(false)}
+            />
+            <Navbtn
+              label="About"
+              iconLabel="Person"
+              path="#about"
+              handleClick={() => setGridActive(false)}
+            />
+            <Navbtn
+              label="Skills"
+              iconLabel="Document"
+              path="#skills"
+              handleClick={() => setGridActive(false)}
+            />
+            <Navbtn
+              label="Projects"
+              iconLabel="Photo"
+              path="#projects"
+              handleClick={() => setGridActive(false)}
+            />
+            <Navbtn
+              label="Contact me"
+              iconLabel="Contact"
+              path="#contactMe"
+              handleClick={() => setGridActive(false)}
+            />
           </div>
           <div onClick={() => setGridActive(false)} className="close-sec">
             <Icon name="Close" size="medium" />
