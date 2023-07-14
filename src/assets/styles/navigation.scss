@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 7.5rem;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  background-color: #212529;
+  max-width: 990px;
+  height: 72px;
+  margin-inline: auto;
+  background-color: #191627;
   z-index: 50;
+  position: sticky;
+  top: 0;
+  padding: 0 15px;
 }
-
 .tabs {
   display: flex;
   justify-content: center;
@@ -20,15 +21,16 @@
   text-decoration: none;
   list-style: none;
   color: #dee2e6;
+  text-transform: capitalize;
 }
 .active {
-  color: #f2c471;
+  // color: #6e57e0;
 }
 .tab {
   font-size: 0.9rem;
 }
 .tab:hover {
-  text-shadow: 1px 1px 5px #f2c471;
+  // text-shadow: 1px 1px 5px #6e57e0;
 }
 .nav-name {
   font-size: 2.5rem;
@@ -42,7 +44,10 @@
     padding: 0.5rem 2rem;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
   .nav-logo {
     visibility: hidden;
   }

@@ -1,20 +1,23 @@
 .Hero {
-  width: 80vw;
   margin-inline: auto;
-  // border: 1px solid red;
   display: flex;
   align-items: center;
-  padding-bottom: 2rem;
 }
-
-// .intro {
-//   margin: 15px 0;
-// }
-
+.Header-wrap {
+  margin-inline: auto;
+}
+.Hero-header {
+  width: 768px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: auto;
+  margin-top: 100px;
+}
 .Bio {
-  width: 100%;
+  max-width: 342px;
+  padding-top: 50px;
   line-height: 25px;
-  margin-top: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,116 +28,95 @@
   justify-content: center;
 }
 .kumar {
-  color: #f2c471;
-}
-.intro {
-  font-size: 1.5rem;
-  width: 40%;
-  text-align: center;
-  line-height: 30px;
+  color: #6e57e0;
 }
 .memoji {
   width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background-color: #f2c571;
+  border-radius: 28% 72% 66% 34% / 52% 44% 56% 48%;
+  background-color: #6e57e0;
   margin-top: 5%;
 }
-.intro-bio {
+.Bio-title {
+  font-size: 48px;
+  font-weight: 600;
   margin: 20px 0;
 }
-.intro-desc2 {
-  text-align: center;
-  font-size: 1.2rem;
-  // border: 1px solid red;
-  width: 60%;
-  margin: 0 auto;
+.Bio-description {
+  color: #bcbac4;
 }
-.top {
-  animation: 3s linear 1s infinite alternate topAni;
-}
-@keyframes topAni {
-  0% {
-    top: -60px;
-  }
-  50% {
-    // transform: scale(1.1);
-    filter: blur(0);
-    z-index: 20;
-    top: 100px;
-  }
-  100% {
-    transform: translateZ(150px);
-    top: 0;
-  }
-}
-.between {
-  animation: 5s linear 1s infinite alternate betweenAni;
-}
-@keyframes betweenAni {
-  0% {
-    top: 0px;
-    transform: translateZ(150px);
-  }
-  50% {
-    top: -60px;
-  }
-  100% {
-    filter: blur(0);
-    // transform: scale(1.1);
-    top: 60px;
-  }
-}
-.bottom {
-  animation: 5s linear 1s infinite alternate bottomAni;
-}
-
-.html-code {
-  top: 20px;
-  animation: 0.3s linear 2s html;
-}
-.anchors {
-  margin-top: 50px;
+.anchor {
+  margin: 20px 0;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #6e57e0;
+  color: white;
+  width: fit-content;
+  font-weight: 500;
+  text-decoration: none;
   display: flex;
+  align-items: center;
   gap: 10px;
 }
-
-.hand {
-  color: #f2c471;
-}
-
-.hand:hover {
+.scrollDown {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 80px;
+  padding-left: 25px;
   cursor: pointer;
-  animation: wave 1s infinite;
+  text-decoration: none;
+  color: #bcbac4;
 }
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(30deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.down-icon {
+  color: #6e57e0;
+}
+.mouse {
+  color: #6e57e0;
 }
 @media screen and (max-width: 800px) {
-  .Hero {
-    width: 90vw;
-  }
   .memoji {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
   }
-  .intro {
-    width: 90%;
+  .Bio-title {
+    font-size: 36px;
   }
-  .intro-bio {
-    margin: 0;
+  .secondary-title {
     font-size: 1.2rem;
-    width: 100%;
+    font-weight: 600px;
   }
-  .intro {
-    margin: 2rem auto;
+  .Bio-description {
+    font-size: 1rem;
+  }
+  .Bio {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Hero-header {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Bio-title {
+    font-size: 30px;
+  }
+  .Bio {
+    margin: 0 10px;
+    font-size: 90%;
+  }
+  .anchor {
+    transform: scale(0.8);
+  }
+  .secondary-title {
+    font-size: 1.1rem;
+    font-weight: 600px;
+  }
+  .Hero-header {
+    margin: 50px 0;
   }
 }

@@ -1,0 +1,52 @@
+.Footermobile {
+  width: 100%;
+  position: fixed;
+  background-color: hsl(251, 28%, 12%);
+  bottom: 0;
+  display: none;
+}
+
+.foot {
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-btn {
+  color: #dee2e6;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.close-sec {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  cursor: pointer;
+}
+.footer-grid {
+  transition: all 2s ease-in-out;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+.navbtn {
+  font-weight: 550;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #dee2e6;
+}
+@media screen and (max-width: 600px) {
+  .Footermobile {
+    display: block;
+  }
+}

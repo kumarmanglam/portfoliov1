@@ -1,22 +1,18 @@
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Navigation from "./components/Navigation";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Homepage from "./components/pages/Homepage";
+import Reactprojects from "./components/pages/Reactprojects";
+import Uiprojects from "./components/pages/Uiprojects";
+import Vanillaprojects from "./components/pages/Vanillaprojects";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const date = new Date().getFullYear();
   return (
     <div className="App">
-      <Navigation />
-      {/* <article className="content-wrapper"> */}
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
-
-      <div className="footer">© {date} Kumar Manglam</div>
-      {/* </article> */}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/ReactProjects" element={<Reactprojects />} />
+        <Route path="/UIprojects" element={<Uiprojects />} />
+        <Route path="/Vanillaprojects" element={<Vanillaprojects />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,69 @@
+.Aboutme {
+  padding-top: 6rem;
+}
+.aboutme {
+  margin-top: 50px;
+  width: 768px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.about-bio {
+  width: 344px;
+}
+.about-second {
+  text-align: center;
+}
+.manglam-img {
+  width: 344px;
+  border-radius: 30px;
+}
+.stats {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.stat-head {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.stat-label {
+  text-align: center;
+  width: min-content;
+  font-size: 13px;
+  color: #bcbac4;
+}
+.cvanchor {
+  color: white;
+}
+.downloadIcon {
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .manglam-img {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .manglam-img {
+    width: 200px;
+  }
+  .aboutme {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-biotext {
+    text-align: center;
+  }
+  .about-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+  .stats {
+    margin: 15px 0;
+  }
+}

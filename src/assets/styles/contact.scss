@@ -1,6 +1,13 @@
+.contactwrap {
+  background-color: #100e1b;
+  width: 100%;
+  margin: 0;
+}
 .contact {
   width: 80vw;
   margin: 100px auto;
+  margin-bottom: 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -11,7 +18,7 @@
 
 .cut-tag {
   text-decoration: line-through;
-  text-decoration-color: #f2c471;
+  text-decoration-color: #6e57e0;
 }
 
 .tagline {
@@ -21,14 +28,24 @@
 .email {
   padding: 20px 40px;
   border-radius: 50px;
-  background-color: #f2c471;
+  background-color: #6e57e0;
   color: #343a40;
   font-weight: 600;
   width: min-content;
   margin: 20px auto;
 }
-
+.email-link {
+  color: black;
+  text-decoration: none;
+}
 .footer {
   padding: 5px;
   text-align-last: center;
+}
+
+@media screen and (max-width: 600px) {
+  .email {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
 }

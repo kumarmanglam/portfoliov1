@@ -1,12 +1,23 @@
-.anchor {
+.anchor-head {
   text-decoration: none;
   text-transform: capitalize;
   color: inherit;
   font-size: 0.9rem;
   text-decoration: underline;
+  color: white;
 }
 
-.anchor:hover {
+.anchor-head:hover {
   cursor: pointer;
   color: #f2c471;
+}
+.primary-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+.secondary-title {
+  font-size: 20px;
+  color: #bcbac4;
+  margin: 10px 0;
 }

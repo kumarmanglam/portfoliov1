@@ -5,29 +5,31 @@ function Skills() {
   const skillsRef = useRef(null);
 
   return (
-    <section className="skills" ref={skillsRef}>
-      <div className="skills-head">
-        <Text label="Skills" size="large" />
-      </div>
-      <div className="skills-type">
-        <Text label="Development" size="medium" />
-      </div>
-      <div className="skill-stack">
-        <Text label="Front-end Development" size="small" />
-        <Text label="HTML5" size="small" />
-        <Text label="CSS3" size="small" />
-        <Text label="Javascript" size="small" />
-        <Text label="React.js" size="small" />
-        <Text label="Tailwind" size="small" />
-        <Text label="Sass" size="small" />
-      </div>
-      <div className="skills-type">
-        <Text label="Tools" size="medium" />
-      </div>
-      <div className="skill-stack">
-        <Text label="Visual Studio Code" size="small" />
-        <Text label="Github" size="small" />
-        <Text label="Figma" size="small" />
+    <section className="skills" ref={skillsRef} id="skills">
+      <p className="primary-title skill-title">Current skill set</p>
+      <div className="skillset">
+        <p>
+          <span className="skill-head">Language &gt; </span>
+          <span className="skill-info">
+            HTML/CSS, JAVASCRIPT, SASS, PYTHON, C/C++
+          </span>
+        </p>
+        <p>
+          <span className="skill-head">Library &gt; </span>
+          <span className="skill-info">REACT, REDUX, ROUTER</span>
+        </p>
+        <p>
+          <span className="skill-head">CSS Framework &gt; </span>
+          <span className="skill-info">Tailwind CSS, MATERIAL UI, SASS</span>
+        </p>
+        <p>
+          <span className="skill-head">Database &gt; </span>
+          <span className="skill-info">SQL</span>
+        </p>
+        <p>
+          <span className="skill-head">Tools &gt; </span>
+          <span className="skill-info">GIT, VS-CODE, NPM, YARN</span>
+        </p>
       </div>
     </section>
   );

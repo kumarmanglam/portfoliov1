@@ -17,16 +17,16 @@
 
 /* Track (background) of the scrollbar */
 ::-webkit-scrollbar-track {
-  background: #212529;
+  background: #495057;
 }
 
 /* Handle (thumb) of the scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #f2c471;
-  border-radius: 5px;
+  background: #868e96;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #212529;
+  background: #ced4da;
 }
