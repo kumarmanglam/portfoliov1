@@ -36,7 +36,7 @@ function About() {
             rel="noopener noreferrer"
             className="anchor cvanchor"
           >
-            Download CV <Icon name="Download" size="large" />
+            Download CV <Icon name="Download" size="large" classes="downloadIcon" />
           </a>
         </div>
       </div>
