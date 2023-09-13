@@ -8,7 +8,9 @@ function Project({ title, desc, github, live, image, v }) {
         <img src={image} className="project-img" />
       </div>
       <div className="project-info">
-        <p className="project-title">{title}</p>
+        <a className="act" href={live} target="_blank">
+          <p className="project-title">{title}</p>
+        </a>
         <Text label={desc} classes="normal project-desc" />
         <div className="project-actions">
           {console.log(v)}

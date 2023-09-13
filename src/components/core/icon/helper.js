@@ -16,6 +16,9 @@ export const ICON_MAP = {
   Person: () => ICONS.Person,
   Photo: () => ICONS.Photo,
   Document: () => ICONS.Document,
+  Github: () => ICONS.Github,
+  Linkedin: () => ICONS.Linkedin,
+  Twitter: () => ICONS.Twitter,
 };
 
 export const applyMapper = (name) => {

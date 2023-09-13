@@ -8,7 +8,7 @@ function Footermobile() {
   return (
     <div className="Footermobile">
       {gridActive ? (
-        <div>
+        <div className="grid-wrap">
           <div className="footer-grid">
             <Navbtn
               label="Home"

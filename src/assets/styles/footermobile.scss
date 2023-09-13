@@ -12,6 +12,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  // transition: all 0.3s ease-in-out;
+}
+.grid-wrap {
+  // transition: all -0.3s ease-in-out;
 }
 
 .grid-btn {
@@ -23,11 +27,10 @@
 .close-sec {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 26px;
   cursor: pointer;
 }
 .footer-grid {
-  transition: all 2s ease-in-out;
   padding-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

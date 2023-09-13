@@ -1,6 +1,4 @@
 import React from "react";
-import Text from "../core/Text";
-import Anchor from "../core/Anchor";
 import Icon from "../core/icon";
 import memoji from "../../images/MyAvatar.png";
 
@@ -9,6 +7,29 @@ function Hero() {
     <section className="Hero" id="home">
       <div className="Header-wrap">
         <div className="Hero-header">
+          <div className="social-links">
+            <a
+              className="social-link"
+              href="https://github.com/kumarmanglam"
+              target="_blank"
+            >
+              <Icon name="Github" size="medium" classes="mouse" />
+            </a>
+            <a
+              className="social-link"
+              href="https://www.linkedin.com/in/kumar-m-557b4a192/"
+              target="_blank"
+            >
+              <Icon name="Linkedin" size="medium" classes="mouse" />
+            </a>
+            <a
+              className="social-link"
+              href="https://twitter.com/kumarthe799"
+              target="_blank"
+            >
+              <Icon name="Twitter" size="medium" classes="mouse" />
+            </a>
+          </div>
           <div className="Bio">
             <div>
               <p className="Bio-title">
@@ -25,7 +46,7 @@ function Hero() {
             </div>
           </div>
           <div>
-            <img src={memoji} className="memoji" />
+            <img src={memoji} className="memoji" alt="Memoji face" />
           </div>
         </div>
         <div>

@@ -21,3 +21,13 @@
   color: #bcbac4;
   margin: 10px 0;
 }
+p::selection,
+.kumar::selection,
+h1::selection,
+a::selection,
+h2::selection,
+.project-desc::selection,
+.PText::selection {
+  color: #6e57e0;
+  background: white;
+}

@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Text from "../core/Text";
 
 function Skills() {
   const skillsRef = useRef(null);
@@ -11,7 +10,7 @@ function Skills() {
         <p>
           <span className="skill-head">Language &gt; </span>
           <span className="skill-info">
-            HTML/CSS, JAVASCRIPT, SASS, PYTHON, C/C++
+            Java, JAVASCRIPT, PYTHON, C/C++, HTML/CSS
           </span>
         </p>
         <p>
@@ -24,7 +23,7 @@ function Skills() {
         </p>
         <p>
           <span className="skill-head">Database &gt; </span>
-          <span className="skill-info">SQL</span>
+          <span className="skill-info">SQL, MySQL, PostgreSQL</span>
         </p>
         <p>
           <span className="skill-head">Tools &gt; </span>

@@ -6,11 +6,13 @@
   width: 768px;
   display: flex;
   justify-content: space-around;
-  gap: 15px;
+  gap: 25px;
 }
 .project-img {
   width: 344px;
   border-radius: 10px;
+  position: relative;
+  top: 20px;
 }
 .project-title {
   font-size: 1.5rem;
@@ -28,6 +30,10 @@
 .action {
   text-decoration: none;
   color: #bcbac4;
+  cursor: pointer;
+}
+.act {
+  text-decoration: none;
   cursor: pointer;
 }
 .portofio-second {

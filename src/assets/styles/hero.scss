@@ -73,6 +73,23 @@
 .mouse {
   color: #6e57e0;
 }
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  color: #6e57e0;
+  position: relative;
+  right: 50px;
+}
+.social-link {
+  cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+  .social-links {
+    left: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
   .memoji {
     width: 200px;
@@ -91,6 +108,9 @@
   .Bio {
     padding-top: 0;
   }
+  .social-links {
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -99,6 +119,10 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 2rem;
+  }
+  .social-links {
+    right: 0;
+    flex-direction: row;
   }
 }
 @media screen and (max-width: 600px) {
@@ -118,5 +142,9 @@
   }
   .Hero-header {
     margin: 50px 0;
+  }
+  .social-links {
+    right: 0;
+    flex-direction: row;
   }
 }

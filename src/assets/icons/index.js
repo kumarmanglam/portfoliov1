@@ -13,6 +13,9 @@ import { ReactComponent as Home } from "./home.svg";
 import { ReactComponent as Person } from "./person.svg";
 import { ReactComponent as Photo } from "./photo.svg";
 import { ReactComponent as Document } from "./document.svg";
+import { ReactComponent as Github } from "./github.svg";
+import { ReactComponent as Linkedin } from "./linkedin.svg";
+import { ReactComponent as Twitter } from "./twitter.svg";
 
 export default {
   Dev,
@@ -30,4 +33,7 @@ export default {
   Person,
   Photo,
   Document,
+  Github,
+  Linkedin,
+  Twitter,
 };
