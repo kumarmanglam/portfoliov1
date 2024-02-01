@@ -8,26 +8,29 @@ function Skills() {
       <p className="primary-title skill-title">Current skill set</p>
       <div className="skillset">
         <p>
-          <span className="skill-head">Language &gt; </span>
+          <span className="skill-head">Programming Languages &gt; </span>
           <span className="skill-info">
-            Java, JAVASCRIPT, PYTHON, C/C++, HTML/CSS
+            Java, JavaScript, Python, C/C++, HTML/CSS
           </span>
         </p>
         <p>
-          <span className="skill-head">Library &gt; </span>
-          <span className="skill-info">REACT, REDUX, ROUTER</span>
+          <span className="skill-head">Technologies &gt; </span>
+          <span className="skill-info">
+            Spring Boot, Spring Security, Docker, React, Redux, Data Structures,
+            Algorithms
+          </span>
         </p>
         <p>
-          <span className="skill-head">CSS Framework &gt; </span>
-          <span className="skill-info">Tailwind CSS, MATERIAL UI, SASS</span>
+          <span className="skill-head">CSS Frameworks &gt; </span>
+          <span className="skill-info">Tailwind CSS, Material UI, SASS</span>
         </p>
         <p>
-          <span className="skill-head">Database &gt; </span>
-          <span className="skill-info">SQL, MySQL, PostgreSQL</span>
+          <span className="skill-head">Databases &gt; </span>
+          <span className="skill-info">MySQL, PostgreSQL</span>
         </p>
         <p>
           <span className="skill-head">Tools &gt; </span>
-          <span className="skill-info">GIT, VS-CODE, NPM, YARN</span>
+          <span className="skill-info">IntelliJ IDEA, Git, VS Code, NPM</span>
         </p>
       </div>
     </section>

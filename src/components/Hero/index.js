@@ -35,10 +35,10 @@ function Hero() {
               <p className="Bio-title">
                 Hi, I'm <span className="kumar">Kumar</span>
               </p>
-              <p className="secondary-title ">Frontend developer</p>
+              <p className="secondary-title ">FullStack Developer</p>
               <p className="Bio-description">
-                Passionate about cutting edge technologies, pixel perfect,
-                beautiful interface.
+                Passionate about creating seamless and dynamic web applications
+                to elevate user experiences.
               </p>
               <a href="#contactMe" className="anchor">
                 Contact me <Icon name="Contact" size="large" />

@@ -14,9 +14,10 @@ function About() {
         </div>
         <div className="about-bio">
           <Text
-            label="Developing web applications from past 2 years and was team leader at
-             college wave deveopers society. I like to bring ideas to life. My scope of work includes large part of
-              frontend technology."
+            label="With over 2 years of experience in web application 
+            development, I served as a team leader at the college Wave 
+            Developers Society. I specialize in Java and Spring Boot for backend development, 
+            complemented by expertise in frontends with React.js"
             classes="normal about-biotext"
           />
           <div className="stats">
@@ -28,6 +29,10 @@ function About() {
               <p className="stat-head">03+</p>
               <p className="stat-label">Frontend Projects</p>
             </div>
+            <div>
+              <p className="stat-head">02+</p>
+              <p className="stat-label">Backend Projects</p>
+            </div>
           </div>
           <a
             href={ResumePDF}
@@ -36,7 +41,8 @@ function About() {
             rel="noopener noreferrer"
             className="anchor cvanchor"
           >
-            Download CV <Icon name="Download" size="large" classes="downloadIcon" />
+            Download CV{" "}
+            <Icon name="Download" size="large" classes="downloadIcon" />
           </a>
         </div>
       </div>
